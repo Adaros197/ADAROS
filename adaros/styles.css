@@ -1,18 +1,15 @@
-/* Reseteo de estilo */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo general del cuerpo */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #fff;
     padding: 40px;
 }
 
-/* Contenedor de la sección visión y misión */
 .vision-mision-filosofia-valores-politicas {
     max-width: 1200px;
     margin: 0 auto;
@@ -21,10 +18,9 @@ body {
     align-items: center;
     text-align: center;
     gap: 50px;
-    
 }
 
-/* Estilo del título principal de cada sección */
+
 .vision-mision-filosofia-valores-politicas h2 {
     font-size: 2.5rem;
     color: #004165; /* Azul oscuro similar al de la imagen */
@@ -34,10 +30,10 @@ body {
     margin-top: 45px;
 }
 
-/* Estilo del texto de los párrafos */
 .vision-mision-filosofia-valores-politicas   p {
     font-size: 1.1rem;
     color: #333;
     line-height: 1.8;
     max-width: 800px;
-    margin-bottom: 20
+    margin-bottom: 20px;
+}
