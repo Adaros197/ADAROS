@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="../images/corazonh.png" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/features/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" integrity="sha512-KzvG++R2vF6EYlhg6hb9Np5Oa/vt7B1upj3Hzv8rUz6Ks1hDPYENXfu7j9uHG5pZCUGLIDw4lUR2Z1Dw9LPV5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>HOMESAVVY</title>
 </head>
 <body>
@@ -18,7 +23,7 @@
                 <a class="nav__link" href="#">INICIAR SESIÓN</a>
             </li>
             <li class="nav__item" >
-                <a class="nav__link link--button " href="#">REGISTRATE</a>
+                <a class="nav__link link--button" href="#">REGISTRATE</a>
             </li>
          </ul>
          <div>
@@ -31,20 +36,138 @@
             <div class="text__header">
                 <h1 class="title__hs">HOMESAVVY</h1>
                 <div class="text__description">
-                    
                     <p class="item__description">¡Bienvenido a <span>HOMESAVVY</span>! Conecta con expertos para soluciones rápidas y eficientes en tu hogar.
                     </p>
-                    
                     <div>
-                        
                         <a href="#" class="button">¡REGISTRATE YA!</a>
                         <div class="h__info">
-                            <h2 class="one__sub">Encuentra una solución a tu problema.</h2>
-                            <div class="image__profesiones">
-                                <img src="../images/albaileria.jpg" alt="albañileria" class="item__imagenp">
-                                <img src="../images/electrisista.jpg" alt="" class="item__imagenp">
-                                <img src="../images/pintura.jpg" alt="" class="item__imagenp">
+                            <div class="container px-4 py-5" id="custom-cards">
+                                <h2 class="pb-2 border-bottom color"> Encuentra una solución a tu problema</h2>
+                            
+                                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                                  <div class="col">
+                                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../images/albaileria.jpg');">
+                                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Albañileria, sin salir de tu casa.</h3>
+                                        <ul class="d-flex list-unstyled mt-auto">
+                                          <li class="me-auto">
+                                            <img src="../images/corazonh.png" alt="Bootstrap" width="32" height="30" >
+                                          </li>
+                                          <li class="d-flex align-items-center me-3">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                                            <small>Profesiones</small>
+                                          </li>
+                                          <li class="d-flex align-items-center">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                            <small>3d</small>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="col">
+                                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../images/electrisista.jpg');">
+                                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Electrisita, para una mejor instalación.</h3>
+                                        <ul class="d-flex list-unstyled mt-auto">
+                                          <li class="me-auto">
+                                            <img src="../images/corazonh.png" alt="Bootstrap" width="32" height="30" >
+                                          </li>
+                                          <li class="d-flex align-items-center me-3">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                                            <small>Profesiones</small>
+                                          </li>
+                                          <li class="d-flex align-items-center">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                            <small>4d</small>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="col">
+                                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../images/pintura.jpg');">
+                                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pintura, ya no ensucies más tu casa.</h3>
+                                        <ul class="d-flex list-unstyled mt-auto">
+                                          <li class="me-auto">
+                                            <img src="../images/corazonh.png" alt="Bootstrap" width="32" height="30" >
+                                          </li>
+                                          <li class="d-flex align-items-center me-3">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                                            <small>Profesiones</small>
+                                          </li>
+                                          <li class="d-flex align-items-center">
+                                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                            <small>5d</small>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="b-example-divider"></div>
+                                <div class="container px-4 py-5">
+                                    <h2 class="pb-2 border-bottom color">Ventejas de usar HOMESAVVY</h2>
+                                
+                                    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                                      <div class="col d-flex flex-column align-items-start gap-2">
+                                        <h2 class="fw-bold text-body-emphasis">Siempre a tu alcance, ya no salgas de tu hogar.</h2>
+
+                                        <p class="text-body-secondary">Puedes confiar en nosotros, ya no salgas de tu hogar a buscar algún experto que solucione el problema en tu hogar, mejor usa HOMESAVVY.</p>
+                                        <a href="#" class="btn btn-primary btn-lg">¡Comienza ya!</a>
+                                      </div>
+                                
+                                      <div class="col">
+                                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                                          <div class="col d-flex flex-column gap-2">
+                                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                              <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#collection" />
+                                              </svg>
+                                            </div>
+                                            <h4 class="fw-semibold mb-0 text-body-emphasis">Seguridad</h4>
+                                            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                                          </div>
+                                
+                                          <div class="col d-flex flex-column gap-2">
+                                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                              <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#gear-fill" />
+                                              </svg>
+                                            </div>
+                                            <h4 class="fw-semibold mb-0 text-body-emphasis">Soluciones Rapidas</h4>
+                                            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                                          </div>
+                                
+                                          <div class="col d-flex flex-column gap-2">
+                                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                              <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#speedometer" />
+                                              </svg>
+                                            </div>
+                                            <h4 class="fw-semibold mb-0 text-body-emphasis">Variedad</h4>
+                                            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                                          </div>
+                                
+                                          <div class="col d-flex flex-column gap-2">
+                                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                              <svg class="bi" width="1em" height="1em">
+                                                
+                                              </svg>
+                                            </div>
+                                            <h4 class="fw-semibold mb-0 text-body-emphasis">Accesibilidad</h4>
+                                            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                             </div>
+                            
+                            
                         </div>
                     </div>
                     
@@ -56,6 +179,7 @@
 
         
     </main>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </body>
 </html>
